@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="ipod">
+
+    <div class="screen">
+
+        <div style="background: linear-gradient(to bottom, #fff 0%, #9e9e9e 100%);
+                    border-bottom: 1px solid #5c5c5c;
+                    border-right: 2px solid #000;
+                    border-left: 2px solid #000;
+                    font-size: 12px;
+                    padding: 1px;">
+            now playing
+        </div>
+
+        <div class="music">
+
+            <audio id="myMusic"></audio>
+
+            <img
+                id="poster"
+                src="https://files.catbox.moe/k0qeux.jpg"
+                alt="Album Cover">
+
+            <div class="content">
+                <b class="name">Apple Vines</b>
+                <p class="singer">The Autocollants</p>
+                <p class="date">1999</p>
+            </div>
+
+        </div>
+
+        <div class="bar-box">
+
+            <p class="current-time">0:00</p>
+
+            <div class="bar">
+                <div class="progress"></div>
+            </div>
+
+            <p class="duration-time">0:00</p>
+
+        </div>
+
+    </div>
+
+    <div class="controls">
+
+        <button class="menu">MENU</button>
+
+        <i class="fa fa-fast-backward"></i>
+
+        <i class="fa fa-fast-forward"></i>
+
+        <button class="play-pause-btn">
+            <i class="fa fa-play"></i>
+            <i class="fa fa-pause" style="display:none;"></i>
+        </button>
+
+    </div>
+
+</div>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
