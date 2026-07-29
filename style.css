@@ -3,16 +3,13 @@
   src: url("https://files.catbox.moe/s0igcb.OTF") format("opentype");
 }
 
-/* Tiny Bunny Cursor */
-* {
-  cursor: url("https://cdn.cursors-4u.net/previews/tiny-bunny-60ca4aed-32.webp") 32 32, auto !important;
-}
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+
+    cursor: url("Tiny%20Bunny.cur"), auto;
 }
 
 body {
